@@ -4,7 +4,7 @@
 
   <groupId>org.csource</groupId>
   <artifactId>fastdfs-client-java</artifactId>
-  <version>1.27-SNAPSHOT</version>
+  <version>1.27</version>
   <name>fastdfs-client-java</name>
   <description>fastdfs client for java</description>
   <packaging>jar</packaging>
@@ -31,5 +31,16 @@
       </plugin>
     </plugins>
   </build>
+
+  <distributionManagement>
+    <repository>
+      <id>wlcx-nexus-repo</id>
+      <url>http://maven.wlcxbj.com/nexus/content/repositories/releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>wlcx-nexus-snapshots-repo</id>
+      <url>http://maven.wlcxbj.com/nexus/content/repositories/snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
 
 </project>
